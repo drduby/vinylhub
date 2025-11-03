@@ -1,4 +1,4 @@
-package com.getom.vinylhub.user;
+package com.getom.vinylhub.domains.user;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Size;
@@ -28,24 +28,24 @@ public class User implements UserDetails {
     private Long Id;
 
     @Column(nullable = false, unique = true)
-    @Size(max = 50)
+    @Size(max = 255)
     private String email;
 
     @Column(nullable = false)
-    @Size(min = 8, max = 50)
+    @Size(min = 8, max = 255)
     private String password;
 
     @Column(nullable = false)
-    @Size(max = 100)
+    @Size(max = 255)
     private String firstName;
 
     @Column(nullable = false)
-    @Size(max = 100)
+    @Size(max = 255)
     private String lastName;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private RolesEnum role = RolesEnum.COLLECTOR;
+    private UserRole role = UserRole.COLLECTOR;
 
     @Column(nullable = false, updatable = false)
     @CreationTimestamp
