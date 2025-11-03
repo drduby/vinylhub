@@ -32,3 +32,5 @@ vinylhub-api/!**/src/test/**/build/
 
 ### VS Code ###
 vinylhub-api/.vscode/
+
+.DS_Store
