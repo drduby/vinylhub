@@ -1,0 +1,34 @@
+## API ##
+vinylhub-api/HELP.md
+vinylhub-api/target/
+vinylhub-api/.mvn/wrapper/maven-wrapper.jar
+vinylhub-api/!**/src/main/**/target/
+vinylhub-api/!**/src/test/**/target/
+
+
+vinylhub-api/.apt_generated
+vinylhub-api/.classpath
+vinylhub-api/.factorypath
+vinylhub-api/.project
+vinylhub-api/.settings
+vinylhub-api/.springBeans
+vinylhub-api/.sts4-cache
+
+### IntelliJ IDEA ###
+vinylhub-api/.idea
+vinylhub-api/*.iws
+vinylhub-api/*.iml
+vinylhub-api/*.ipr
+
+### NetBeans ###
+vinylhub-api//nbproject/private/
+vinylhub-api//nbbuild/
+vinylhub-api//dist/
+vinylhub-api//nbdist/
+vinylhub-api//.nb-gradle/
+vinylhub-api/build/
+vinylhub-api/!**/src/main/**/build/
+vinylhub-api/!**/src/test/**/build/
+
+### VS Code ###
+vinylhub-api/.vscode/
