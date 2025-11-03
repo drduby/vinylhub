@@ -1,8 +1,8 @@
-![VinylVerse Logo](images/logo.png)
+![VinylHub Logo](images/logo.png)
 
-# 🎵 VinylVerse – Vinyl Collector Platform
+# 🎵 VinylHub – Vinyl Collector Platform
 
-**VinylVerse** is a web platform for vinyl collectors to manage their record collections, buy and sell records, and interact with a community of collectors. The application features **role-based access control**, allowing collectors to manage their own collections while admins oversee and manage the entire system.
+**VinylHub** is a web platform for vinyl collectors to manage their record collections, buy and sell records, and interact with a community of collectors. The application features **role-based access control**, allowing collectors to manage their own collections while admins oversee and manage the entire system.
 
 ---
 
